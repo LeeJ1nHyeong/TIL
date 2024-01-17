@@ -19,6 +19,3 @@
 <img src="https://www.hanbit.co.kr/data/editor/20231027090450_wfludeql.png" alt="자료구조의 종류.png" style="zoom: 67%;" />
 
 <img src="https://www.hanbit.co.kr/data/editor/20231027090834_lhwmobfs.png" alt="배열, 스택, 링크드 리스트, 큐.png" style="zoom:67%;" />
-
-
-
