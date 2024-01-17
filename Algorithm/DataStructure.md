@@ -15,7 +15,7 @@
 * `비선형 자료구조` : 데이터를 비연속적으로 연결
   * `트리(Tree)`  `그래프(Graph)`
 
-
-<img src="https://www.hanbit.co.kr/data/editor/20231027090450_wfludeql.png" alt="자료구조의 종류.png" style="zoom: 67%;" />
-
-<img src="https://www.hanbit.co.kr/data/editor/20231027090834_lhwmobfs.png" alt="배열, 스택, 링크드 리스트, 큐.png" style="zoom:67%;" />
+<div style="display: flex;">
+ <img src="https://www.hanbit.co.kr/data/editor/20231027090450_wfludeql.png" alt="자료구조의 종류.png" style="zoom: 50%;" />
+ <img src="https://www.hanbit.co.kr/data/editor/20231027090834_lhwmobfs.png" alt="배열, 스택, 링크드 리스트, 큐.png" style="zoom:50%;" />
+</div>
