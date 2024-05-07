@@ -31,9 +31,10 @@ public class ChildClass : ParentClass {
 public class ParentClass {
 	
 	public virtual void method() {
-	  // 부모 클래스 메서드
+		// 부모 클래스 메서드
 	}
 }
+
 
 public class ChildClass : ParentClass {
 	
