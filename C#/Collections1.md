@@ -48,7 +48,8 @@ List<int> values = new List<int>() {1, 2, 3};
 
 - 주요 메서드
     
-    
+    | 메서드 | 기능 |
+    | --- | --- |
     | **{리스트명}.Count** | 리스트 내의 요소 개수 반환 |
     | **{리스트명}.Add({요소})** | 리스트의 맨 뒤에 요소 추가 |
     | **{리스트명}.Insert({인덱스}, {요소})** | 리스트의 해당 인덱스에 요소 삽입 |
@@ -86,10 +87,11 @@ keyValue["key2"]  // 2
 
 - 주요 메서드
     
-    
+    | 메서드 | 기능 |
+    | --- | --- |
     | **{딕셔너리명}.Add({key}, {value})** | 딕셔너리에 key-value 추가 |
     | **{딕셔너리명}.Remove({key})** | 딕셔너리 내에 key에 해당하는 key-value 삭제 |
-    | **{딕셔너리명}.ContainsKey({key})** | 딕셔너리 내 key 존재 여부 확인. 있으면 true, 없으면 false 반환 |
+    | **{딕셔너리명}.ContainsKey({key})** | 딕셔너리 내 key 존재 여부 확인, 있으면 true, 없으면 false 반환 |
     
     ```csharp
     keyValue.Add("key3", 3)  // { {key1, 1}, {key2, 2}, {key3, 3} }
