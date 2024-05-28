@@ -7,17 +7,17 @@
 
 ```csharp
 public struct Struct1 {
-	int int1;
-	string string1;
+    int int1;
+    string string1;
 	
-	public Struct1 (int int1, string string1) {
-		this.int1 = int1;
-		this.string1 = string1;
-	}
+    public Struct1 (int int1, string string1) {
+        this.int1 = int1;
+        this.string1 = string1;
+    }
 	
-	public Method1() {
-	
-	}
+    public Method1() {
+        
+    }
 }
 ```
 
@@ -27,13 +27,13 @@ public struct Struct1 {
     
     ```csharp
     public struct Struct1 {
-    	int int1;
-    	string string1;
+        int int1;
+        string string1;
     	
-    	/* 값 초기화 불가
-    	int int1 = 1;
-    	string string1 = "abc";
-		*/
+        /* 값 초기화 불가
+        int int1 = 1;
+        string string1 = "abc";
+	    */
     }
     ```
     
@@ -41,16 +41,16 @@ public struct Struct1 {
     
     ```csharp
     public struct Struct1 {
-    	public Struct1 (int int1, string string1) {
-    		this.int1 = int1;
-    		this.string1 = string1;
-    	}
+        public Struct1 (int int1, string string1) {
+            this.int1 = int1;
+            this.string1 = string1;
+        }
     	
-    	/* 매개변수 없는 생성자 사용 불가
-    	public Struct1 () {
-    	
-    	}
-    	*/
+        /* 매개변수 없는 생성자 사용 불가
+        public Struct1 () {
+            
+        }
+        */
     }
     ```
     
@@ -74,11 +74,11 @@ public struct Struct1 {
 ```csharp
 // 클래스 (참조 타입)
 public class Class1 {
-	int value;
+    int value;
 	
-	public Class1(int value) {
-		this.value = value;
-	}
+    public Class1(int value) {
+        this.value = value;
+    }
 }
 
 Class1 c1 = new Class1(1);
@@ -92,11 +92,11 @@ c2.value  // 2
 
 // 구조체 (값 타입)
 public struct Struct1 {
-	int value;
+    int value;
 	
-	public Struct1(int value) {
-		this.value = value;
-	}
+    public Struct1(int value) {
+        this.value = value;
+    }
 }
 
 Struct1 s1 = new Struct1(1);
