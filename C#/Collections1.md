@@ -76,10 +76,10 @@ Dictionary<keyType, valueType> {딕셔너리명} = new Dictionary<keyType, value
 // ex
 Dictionary<string, int> keyValue = new Dictionary<string, int>();
 Dictionary<string, int> keyValue = new Dictionary<string, int>()
-	{
-		{"key1", 1},
-		{"key2", 2}
-	};
+    {
+        {"key1", 1},
+        {"key2", 2}
+    };
 	
 keyValue["key1"]  // 1
 keyValue["key2"]  // 2
