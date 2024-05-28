@@ -17,9 +17,9 @@
 ```csharp
 public class ChildClass : ParentClass {
 	
-	public Childclass() : base() {
+    public Childclass() : base() {
 	
-	}
+    }
 }
 ```
 
@@ -30,16 +30,16 @@ public class ChildClass : ParentClass {
 ```csharp
 public class ParentClass {
 	
-	public virtual void method() {
-		// 부모 클래스 메서드
-	}
+    public virtual void method() {
+        // 부모 클래스 메서드
+    }
 }
 
 
 public class ChildClass : ParentClass {
 	
-	public override void method() {
-		// 오버라이딩
-	}
+    public override void method() {
+        // 오버라이딩
+    }
 }
 ```
