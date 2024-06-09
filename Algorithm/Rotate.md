@@ -10,7 +10,7 @@
   
   for i in range(M):
       for j in range(M):
-  	      rotate_90[r + j][c + (M - 1) - i] = board[r + i][c + j]
+          rotate_90[r + j][c + (M - 1) - i] = board[r + i][c + j]
   ```
 
 - 180도 회전
@@ -21,7 +21,7 @@
   
   for i in range(M):
       for j in range(M):
-  	      rotate_180[r + (M - 1) - i][c + (M - 1) - j] = board[r + i][c + j]
+          rotate_180[r + (M - 1) - i][c + (M - 1) - j] = board[r + i][c + j]
   ```
 
 - 270도 회전
@@ -32,6 +32,6 @@
   
   for i in range(M):
       for j in range(M):
-  	      rotate_270[r + (M - 1) - j][c + i] = board[r + i][c + j]
+          rotate_270[r + (M - 1) - j][c + i] = board[r + i][c + j]
   ```
 
